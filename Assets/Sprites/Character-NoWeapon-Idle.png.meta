@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -124,16 +124,24 @@ TextureImporter:
       name: Character-NoWeapon-Idle_0
       rect:
         serializedVersion: 2
-        x: 40
+        x: 0
         y: 0
-        width: 17
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 94
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
       tessellationDetail: -1
       bones: []
       spriteID: e4e7b8894f93e7350800000000000000
@@ -146,16 +154,24 @@ TextureImporter:
       name: Character-NoWeapon-Idle_1
       rect:
         serializedVersion: 2
-        x: 136
+        x: 94
         y: 0
-        width: 17
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 94
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
       tessellationDetail: -1
       bones: []
       spriteID: acf0b9f7c66cb61c0800000000000000
@@ -168,16 +184,24 @@ TextureImporter:
       name: Character-NoWeapon-Idle_2
       rect:
         serializedVersion: 2
-        x: 232
+        x: 188
         y: 0
-        width: 17
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 94
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
       tessellationDetail: -1
       bones: []
       spriteID: 81bafb35020e7a850800000000000000
@@ -190,16 +214,24 @@ TextureImporter:
       name: Character-NoWeapon-Idle_3
       rect:
         serializedVersion: 2
-        x: 328
+        x: 282
         y: 0
-        width: 17
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 94
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
       tessellationDetail: -1
       bones: []
       spriteID: c4e3b3c7febbdfe40800000000000000
@@ -212,16 +244,24 @@ TextureImporter:
       name: Character-NoWeapon-Idle_4
       rect:
         serializedVersion: 2
-        x: 424
+        x: 376
         y: 0
-        width: 17
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 94
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
       tessellationDetail: -1
       bones: []
       spriteID: 81ad20fdc3c878f70800000000000000
@@ -234,16 +274,24 @@ TextureImporter:
       name: Character-NoWeapon-Idle_5
       rect:
         serializedVersion: 2
-        x: 520
+        x: 470
         y: 0
-        width: 17
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 94
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
       tessellationDetail: -1
       bones: []
       spriteID: 2e2d79a181663a6f0800000000000000
@@ -256,16 +304,24 @@ TextureImporter:
       name: Character-NoWeapon-Idle_6
       rect:
         serializedVersion: 2
-        x: 616
+        x: 564
         y: 0
-        width: 17
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 94
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
       tessellationDetail: -1
       bones: []
       spriteID: c4587354435e752b0800000000000000
@@ -278,16 +334,24 @@ TextureImporter:
       name: Character-NoWeapon-Idle_7
       rect:
         serializedVersion: 2
-        x: 712
+        x: 658
         y: 0
-        width: 17
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 94
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
       tessellationDetail: -1
       bones: []
       spriteID: 3a66f5791404f0b90800000000000000
@@ -300,7 +364,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 80b37ad26de73f848963c570921cc5ee
     internalID: 0
     vertices: []
     indices: 
@@ -308,7 +372,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":94.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.33000001311302187},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Character-NoWeapon-Idle_0: 6016309874907643470
       Character-NoWeapon-Idle_1: -4509292432581783606

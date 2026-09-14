@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -124,16 +124,24 @@ TextureImporter:
       name: Character-NoWeapon-Run_0
       rect:
         serializedVersion: 2
-        x: 37
+        x: 0
         y: 0
-        width: 27
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 94
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5426586, y: 0.37468982}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
       tessellationDetail: -1
       bones: []
       spriteID: fed8ee80cad5ea3a0800000000000000
@@ -146,16 +154,24 @@ TextureImporter:
       name: Character-NoWeapon-Run_1
       rect:
         serializedVersion: 2
-        x: 129
-        y: 3
-        width: 30
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 94
+        y: 0
+        width: 94
+        height: 64
+      alignment: 9
+      pivot: {x: 0.55972207, y: 0.36215883}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
       tessellationDetail: -1
       bones: []
       spriteID: 817b26652214d9010800000000000000
@@ -168,16 +184,24 @@ TextureImporter:
       name: Character-NoWeapon-Run_2
       rect:
         serializedVersion: 2
-        x: 226
+        x: 188
         y: 0
-        width: 27
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 94
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5767856, y: 0.32456586}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
       tessellationDetail: -1
       bones: []
       spriteID: 23488855d19ccbf70800000000000000
@@ -190,16 +214,24 @@ TextureImporter:
       name: Character-NoWeapon-Run_3
       rect:
         serializedVersion: 2
-        x: 325
+        x: 282
         y: 0
-        width: 26
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 94
+        height: 64
+      alignment: 9
+      pivot: {x: 0.593849, y: 0.34962785}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
       tessellationDetail: -1
       bones: []
       spriteID: 35a073be14b4625b0800000000000000
@@ -212,16 +244,24 @@ TextureImporter:
       name: Character-NoWeapon-Run_4
       rect:
         serializedVersion: 2
-        x: 421
+        x: 376
         y: 0
-        width: 27
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 94
+        height: 64
+      alignment: 9
+      pivot: {x: 0.62797576, y: 0.3997518}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
       tessellationDetail: -1
       bones: []
       spriteID: b4547baa20cbc14a0800000000000000
@@ -234,16 +274,24 @@ TextureImporter:
       name: Character-NoWeapon-Run_5
       rect:
         serializedVersion: 2
-        x: 513
-        y: 3
-        width: 31
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 470
+        y: 0
+        width: 94
+        height: 64
+      alignment: 9
+      pivot: {x: 0.6621029, y: 0.3872208}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
       tessellationDetail: -1
       bones: []
       spriteID: 10155c1129392aa70800000000000000
@@ -256,16 +304,24 @@ TextureImporter:
       name: Character-NoWeapon-Run_6
       rect:
         serializedVersion: 2
-        x: 610
+        x: 564
         y: 0
-        width: 27
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 94
+        height: 64
+      alignment: 9
+      pivot: {x: 0.6706348, y: 0.3997518}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
       tessellationDetail: -1
       bones: []
       spriteID: bacc54d614701f260800000000000000
@@ -278,16 +334,24 @@ TextureImporter:
       name: Character-NoWeapon-Run_7
       rect:
         serializedVersion: 2
-        x: 709
+        x: 658
         y: 0
-        width: 25
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 94
+        height: 64
+      alignment: 9
+      pivot: {x: 0.7132932, y: 0.32456586}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
+      physicsShape:
+      - - {x: 0, y: -32}
+        - {x: 47, y: 0}
+        - {x: 0, y: 32}
+        - {x: -47, y: 0}
       tessellationDetail: -1
       bones: []
       spriteID: b568f0223fcca6da0800000000000000
@@ -300,7 +364,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: de40880fe4eacc74cad198878db3dde3
     internalID: 0
     vertices: []
     indices: 
@@ -308,7 +372,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":94.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":3,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Character-NoWeapon-Run_0: -6652276606114034193
       Character-NoWeapon-Run_1: 1197184691684423448
